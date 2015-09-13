@@ -15,7 +15,7 @@ RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
 RUN apt-get update && apt-get install -y nodejs
 
 # Clone mongo-express from Github (mongodb GUI)
-RUN git clone https://github.com/ismarslomic/mongo-express.git.git
+RUN git clone https://github.com/ismarslomic/mongo-express.git
 
 # Navigate to the mongo-express folder
 WORKDIR mongo-express
